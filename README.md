@@ -289,8 +289,7 @@ Betting Odds(2024):
 
 ## Thoughts
 - I wish I would have chosen better data sources, but I guess that's what we're here for! Where would the world be without data engineers!
-- I've learned that hands on with the tool is the way I learn best.
-- 
+- I've learned that hands on with anything is the way I learn best.
 
 ## Conclusion 
 Working on this project was rewarding and challenging. I never though I'd be staring at databricks for so long.\
@@ -301,8 +300,8 @@ I hope you enjoyed my project, feel free to reach out and collaborate! I look fo
 to reach out! 
 
 Checkout my website for a deeper dive and other projects!
-Website(https://loganallen.dev/)
-Email(loganallendev@gmail.com)
+Website: https://loganallen.dev/
+Email: loganallendev@gmail.com
 
 
 
