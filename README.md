@@ -2,7 +2,6 @@
 
 
 # NFL Betting & Fantasy Data
-Introduction
 This project was originally intended to stream NFL data in real-time, but due to the end of the season, I pivoted to ingesting and analyzing historical data. The goal was to capture betting odds (player props), fantasy stats, and player performance metrics to identify trends and inefficiencies.
 
 ## Table of Contents  
