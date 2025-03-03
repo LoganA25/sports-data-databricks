@@ -1,9 +1,26 @@
-Capstone Project for DataExpert bootcamp
 
-NFL Betting & Fantasy Data Analysis
+
+
+# NFL Betting & Fantasy Data
 Introduction
 This project was originally intended to stream NFL data in real-time, but due to the end of the season, I pivoted to ingesting and analyzing historical data. The goal was to capture betting odds (player props), fantasy stats, and player performance metrics to identify trends and inefficiencies.
 
+## Table of Contents  
+1. [NFL Betting & Fantasy Data Analysis](#nfl-betting--fantasy-data-analysis)  
+  i. [Project Scope & Data Sources](#project-scope--data-sources)  
+  ii. [Tech Stack](#tech-stack)  
+
+2. [First Look at Data Sources](#first-look-at-data-sources)  
+    i. [Player Stats](#player-stats)  
+    ii. [Odds Data](#odds-data)  
+3. [Data Quality](#data-quality)  
+4. [Workflow/Pipeline](#workflowpipeline)  
+  i. [Betting Data](#betting-data)  
+
+5. [Dashboards](#dashboards)  
+6. [Thoughts](#thoughts)  
+7. [Conclusion](#conclusion)  
+8. [Contact](#contact)
 ## Design
 ![image](https://github.com/user-attachments/assets/504b2139-6211-4349-b7e9-b6caba738a62)
 
@@ -22,7 +39,7 @@ You can set the schedule on the pipeline or the workflow. I have it in the workf
 
 This project was originally intended to stream NFL data in real-time, but due to the end of the season, I pivoted to ingesting and analyzing historical data. The goal was to capture betting odds (player props), fantasy stats, and player performance metrics to identify trends and inefficiencies.
 
-While working with the API, excessive testing led to the expiration of my API tokens for player props data. As a workaround, I retrieved a large JSON dataset and focused on parsing and analyzing it. This dataset can be leveraged for future implementations, including real-time streaming. As for the stats I found used historic data from csvs.
+While working with the API, excessive testing led to the expiration of my API tokens for player props data. As a workaround, I retrieved a large JSON dataset and focused on parsing and analyzing it. This dataset can be leveraged for future implementations, including real-time streaming. As for the stats I found and used historic data from csvs.
 
 ## Project Scope & Data Sources
 This project aggregates data from multiple sources to ensure diversity in formats and structures:
@@ -38,7 +55,7 @@ Player Stats: Actual player performance data to compare against projections and 
 - Databricks Workflows: Managed ETL jobs without external orchestration tools.
 - Databricks Dashboarding: Built-in visualization tool for analyzing trends and insights.
 
-I've never used a "big data" tool and having free access to a flagship like databricks I wanted to use it to its fullest extent. Boy did I underestimate it.
+I had never used a 'big data' tool before, and with free access to a flagship platform like Databricks, I wanted to explore its full potential. I quickly realized I had underestimated its complexity.
 ## First Look at Data Sources
 ### Player Stats
 This one wasn't too bad and I wanted a free source for this one so I went with scraped data.
@@ -308,6 +325,3 @@ to reach out!
 Checkout my website for a deeper dive and other projects!
 Website: https://loganallen.dev/
 Email: loganallendev@gmail.com
-
-
-
