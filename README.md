@@ -9,8 +9,14 @@ This project was originally intended to stream NFL data in real-time, but due to
 
 
 ## Workflows/Pipeline
-![image](https://github.com/user-attachments/assets/35b97b35-dd18-4da9-87b4-e42e444a5335)
+I wasn't able to do a streaming portion due to the season being over, so the prediction tables are on standby. The historic data is ready for full use! Here's an example of the pipeline and how it runs!
 
+![image](https://github.com/user-attachments/assets/35b97b35-dd18-4da9-87b4-e42e444a5335)
+![image](https://github.com/user-attachments/assets/0a03380a-3100-4dff-8eef-2b3ded11b66e)
+
+You can set the schedule on the pipeline or the workflow. I have it in the workflow so it kicks off when the file is dropped inside of the volume. 
+
+![image](https://github.com/user-attachments/assets/0ac5b35e-5fa8-42ae-8e5b-09976d0f1f2f)
 
 # NFL Betting & Fantasy Data Analysis
 
