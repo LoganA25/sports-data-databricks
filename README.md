@@ -7,16 +7,14 @@ This project was originally intended to stream NFL data in real-time, but due to
 
 ## Table of Contents  
 1. [NFL Betting & Fantasy Data Analysis](#nfl-betting--fantasy-data-analysis)  
-  i. [Project Scope & Data Sources](#project-scope--data-sources)  
-  ii. [Tech Stack](#tech-stack)  
-
+    i. [Project Scope & Data Sources](#project-scope--data-sources)  
+    ii. [Tech Stack](#tech-stack)  
 2. [First Look at Data Sources](#first-look-at-data-sources)  
     i. [Player Stats](#player-stats)  
     ii. [Odds Data](#odds-data)  
 3. [Data Quality](#data-quality)  
 4. [Workflow/Pipeline](#workflowpipeline)  
-  i. [Betting Data](#betting-data)  
-
+    i. [Betting Data](#betting-data)  
 5. [Dashboards](#dashboards)  
 6. [Thoughts](#thoughts)  
 7. [Conclusion](#conclusion)  
@@ -325,3 +323,6 @@ to reach out!
 Checkout my website for a deeper dive and other projects!
 Website: https://loganallen.dev/
 Email: loganallendev@gmail.com
+
+
+
