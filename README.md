@@ -218,17 +218,6 @@ This is structured similarly to the player stats data,\
 both scripts have sensors setup through the workflow to pickup new files\
 that are added to the listed volume. This could easily go right into a streaming project once the season starts back up. 
 
-## Dashboards
-I decided to use databricks dashboards for the seamless integration. The visuals are a little limited, but for what I needed it was great!\
-I have a fantasy and betting dashboard, this can be used for decisions to help with who to select for your roster or betting purposes.
-
-Fantasy/Stats:
-![image](https://github.com/user-attachments/assets/7b27b44e-24b0-4bdd-96c3-358dcc754c61)
-
-Betting Odds(2024):
-![image](https://github.com/user-attachments/assets/3e03f8dc-576d-4ac5-9b82-e8d002466ede)
-
-
 ```from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, DateType
 from pyspark.sql.functions import col
 
@@ -288,8 +277,32 @@ cleaned_stats_df.write.format("delta") \
     .saveAsTable("tabular.dataexpert.la_nfl_weekly_odds")
 ```
 
+## Dashboards
+I decided to use databricks dashboards for the seamless integration. The visuals are a little limited, but for what I needed it was great!\
+I have a fantasy and betting dashboard, this can be used for decisions to help with who to select for your roster or betting purposes.
+
+Fantasy/Stats:
+![image](https://github.com/user-attachments/assets/7b27b44e-24b0-4bdd-96c3-358dcc754c61)
+
+Betting Odds(2024):
+![image](https://github.com/user-attachments/assets/3e03f8dc-576d-4ac5-9b82-e8d002466ede)
+
 ## Thoughts
-I wish I would have chosen better data sources, but I guess that's what we're here for! Where would the world be without data engineers! 
+- I wish I would have chosen better data sources, but I guess that's what we're here for! Where would the world be without data engineers!
+- I've learned that hands on with the tool is the way I learn best.
+- 
 
 ## Conclusion 
-While working with the API, excessive testing led to the expiration of my API tokens for player props data. As a workaround, I retrieved a large JSON dataset and focused on parsing and analyzing it. This dataset can be leveraged for future implementations, including real-time streaming. As for the stats I found used historic data from csvs. I had to do a lot of schema validation and dat typing. Of course this is expected but the source I chose had a lot of "dirty" data. In a way this is good practice. 
+Working on this project was rewarding and challenging. I never though I'd be staring at databricks for so long.\
+I underestimated the complexity of the tool, nonetheless I was able to build an end to end project all with databricks!
+No matter what tool you run across, fundamentals are where it's at. With that said tools are an important piece to success.\
+I do plan on branching this out in the future I do however think I'll be moving it to another stack due to costs and wants.
+I hope you enjoyed my project, feel free to reach out and collaborate! I look forward to hearing your feedback, feel free\
+to reach out! 
+
+Checkout my website for a deeper dive and other projects!
+Website(https://loganallen.dev/)
+Email(loganallendev@gmail.com)
+
+
+
