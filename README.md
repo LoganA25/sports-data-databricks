@@ -8,11 +8,6 @@ This project was originally intended to stream NFL data in real-time, but due to
 ![image](https://github.com/user-attachments/assets/504b2139-6211-4349-b7e9-b6caba738a62)
 
 
-## Schema Validation
-![image](https://github.com/user-attachments/assets/7b56f3a3-6dec-4780-9936-a677c14259a2)
-![image](https://github.com/user-attachments/assets/aafe6b59-273a-4d73-9d11-f462462c427b)
-
-
 ## Workflows/Pipeline
 ![image](https://github.com/user-attachments/assets/35b97b35-dd18-4da9-87b4-e42e444a5335)
 
@@ -211,6 +206,9 @@ endpoint: https://api.the-odds-api.com/v4/historical/sports/basketball_nba/event
 ## Data Quality
 For schema validation I defined the schema and did a check against it. 
 
+![image](https://github.com/user-attachments/assets/7b56f3a3-6dec-4780-9936-a677c14259a2)
+![image](https://github.com/user-attachments/assets/aafe6b59-273a-4d73-9d11-f462462c427b)
+
 
 ## Workflow/pipeline
 
@@ -276,7 +274,8 @@ cleaned_stats_df.write.format("delta") \
 cleaned_stats_df.write.format("delta") \
     .option("mergeSchema", "true") \
     .mode("overwrite") \
-    .saveAsTable("tabular.dataexpert.la_nfl_weekly_odds")```
+    .saveAsTable("tabular.dataexpert.la_nfl_weekly_odds")
+```
 
 ## Thoughts
 I wish I would have chosen better data sources, but I guess that's what we're here for! Where would the world be without data engineers! 
