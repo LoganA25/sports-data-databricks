@@ -218,6 +218,17 @@ This is structured similarly to the player stats data,\
 both scripts have sensors setup through the workflow to pickup new files\
 that are added to the listed volume. This could easily go right into a streaming project once the season starts back up. 
 
+## Dashboards
+I decided to use databricks dashboards for the seamless integration. The visuals are a little limited, but for what I needed it was great!\
+I have a fantasy and betting dashboard, this can be used for decisions to help with who to select for your roster or betting purposes.
+
+Fantasy/Stats:
+![image](https://github.com/user-attachments/assets/7b27b44e-24b0-4bdd-96c3-358dcc754c61)
+
+Betting Odds(2024):
+![image](https://github.com/user-attachments/assets/3e03f8dc-576d-4ac5-9b82-e8d002466ede)
+
+
 ```from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, DateType
 from pyspark.sql.functions import col
 
