@@ -320,7 +320,7 @@ I hope you enjoyed my project, feel free to reach out and collaborate! I look fo
 to reach out! 
 
 Checkout my website for a deeper dive and other projects!\
-Website: https://loganallen.dev/\
+Website: https://loganallen.dev/
 Email: loganallendev@gmail.com
 
 
