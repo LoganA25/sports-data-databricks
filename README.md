@@ -312,11 +312,11 @@ Betting Odds(2024):
 - I've learned that hands on with anything is the way I learn best.
 
 ## Conclusion 
-Working on this project was rewarding and challenging. I never thought I'd be staring at databricks for so long.\
+Working on this project was rewarding and challenging. I never thought I'd be staring at databricks for so long.
 I underestimated the complexity of the tool, nonetheless I was able to build an end to end project all with databricks!
-No matter what tool you run across, fundamentals are where it's at. With that said tools are an important piece to success.\
+No matter what tool you run across, fundamentals are where it's at. With that said tools are an important piece to success.
 I do plan on branching this out in the future I do however think I'll be moving it to another stack due to costs and wants.
-I hope you enjoyed my project, feel free to reach out and collaborate! I look forward to hearing your feedback, feel free\
+I hope you enjoyed my project, feel free to reach out and collaborate! I look forward to hearing your feedback, feel free
 to reach out! 
 
 Checkout my website for a deeper dive and other projects!\
