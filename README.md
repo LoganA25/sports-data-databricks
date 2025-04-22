@@ -218,14 +218,14 @@ endpoint: https://api.the-odds-api.com/v4/historical/sports/basketball_nba/event
 `price` – DOUBLE
 
 ### NULL
-`previous_timestamp` – TIMESTAMP NULL 
+`previous_timestamp` – TIMESTAMP 
 * Previous recorded timestamp in the feed.  
-`next_timestamp` – TIMESTAMP NULL 
+`next_timestamp` – TIMESTAMP 
 * Next recorded timestamp in the feed. 
 * Betting odds for this outcome.  
-`description` – STRING NULL 
+`description` – STRING 
 * Additional details about the bet (e.g., `"Anthony Davis"`).  
-`point` – DOUBLE NULL 
+`point` – DOUBLE 
 * Statistical threshold for the bet (e.g., `23.5` for player points).
 
 ## Data Quality
