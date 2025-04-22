@@ -63,7 +63,7 @@ https://github.com/hvpkod/NFL-Data/tree/main/NFL-data-Players
 
 Results for one position(QB)
 
-NOT NULL
+### NOT NULL
 `PlayerName` – STRING 
 * Name of the player.  
 
@@ -79,7 +79,7 @@ NOT NULL
 `PlayerOpponent` – STRING 
 * The opposing team for the given game.
 
-NULL  
+### NULL  
 `PassingYDS` – INT 
 * Total passing yards recorded by the player in the game.  
 
@@ -188,7 +188,7 @@ endpoint: https://api.the-odds-api.com/v4/historical/sports/basketball_nba/event
 
 **Odds Data Dictionary**
 
-NOT NULL
+### NOT NULL
 `timestamp` – TIMESTAMP 
 * Timestamp when this data was retrieved.   
 `id` – STRING
@@ -217,7 +217,7 @@ NOT NULL
 * Outcome name (e.g., `"Detroit Pistons"`, `"Over"`).  
 `price` – DOUBLE
 
-NULL
+### NULL
 `previous_timestamp` – TIMESTAMP NULL 
 * Previous recorded timestamp in the feed.  
 `next_timestamp` – TIMESTAMP NULL 
