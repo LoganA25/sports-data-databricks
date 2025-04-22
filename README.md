@@ -63,70 +63,72 @@ https://github.com/hvpkod/NFL-Data/tree/main/NFL-data-Players
 
 Results for one position(QB)
 
-`PlayerName` – STRING NOT NULL  
+NOT NULL
+`PlayerName` – STRING 
 * Name of the player.  
 
-`PlayerId` – STRING NOT NULL  
+`PlayerId` – STRING 
 * Unique identifier for the player.  
 
-`Pos` – STRING NOT NULL  
+`Pos` – STRING 
 * Position of the player (e.g., `"QB"` for Quarterback).  
 
-`Team` – STRING NOT NULL  
+`Team` – STRING 
 * The team that the player currently plays for.  
 
-`PlayerOpponent` – STRING NOT NULL  
-* The opposing team for the given game.  
+`PlayerOpponent` – STRING 
+* The opposing team for the given game.
 
-`PassingYDS` – INT NULL  
+NULL  
+`PassingYDS` – INT 
 * Total passing yards recorded by the player in the game.  
 
-`PassingTD` – INT NULL  
+`PassingTD` – INT 
 * Number of passing touchdowns thrown by the player.  
 
-`PassingInt` – INT NULL  
+`PassingInt` – INT 
 * Number of interceptions thrown by the player.  
 
-`RushingYDS` – INT NULL  
+`RushingYDS` – INT
 * Total rushing yards recorded by the player in the game.  
 
-`RushingTD` – INT NULL  
+`RushingTD` – INT
 * Number of rushing touchdowns scored by the player.  
 
-`ReceivingRec` – INT NULL  
+`ReceivingRec` – INT 
 * Number of receptions made by the player (not common for QBs but included for completeness).  
 
-`ReceivingYDS` – INT NULL  
+`ReceivingYDS` – INT 
 * Total receiving yards recorded by the player (not common for QBs but included for completeness).  
 
-`ReceivingTD` – INT NULL  
+`ReceivingTD` – INT 
 * Number of receiving touchdowns scored by the player (not common for QBs but included for completeness).  
 
-`RetTD` – INT NULL  
+`RetTD` – INT  
 * Number of return touchdowns (e.g., kick return, punt return) scored by the player.  
 
-`FumTD` – INT NULL  
+`FumTD` – INT  
 * Number of fumbles recovered and returned for a touchdown by the player.  
 
-`2PT` – INT NULL  
+`2PT` – INT 
 * Number of successful two-point conversions made by the player.  
 
-`Fum` – INT NULL  
+`Fum` – INT   
 * Number of times the player fumbled the ball.  
 
-`PlayerWeekProjectedPts` – DOUBLE NULL  
+`PlayerWeekProjectedPts` – DOUBLE 
 * The projected fantasy points for the player in the given week.  
 
-`ProjectedRank` – INT NULL  
+`ProjectedRank` – INT 
 * The projected ranking of the player compared to others in their position.  
 
-`Rank` – INT NULL  
+`Rank` – INT
 * The actual ranking of the player for the given week based on performance.  
 
-`TotalPoints` – DOUBLE NULL  
+`TotalPoints` – DOUBLE  
 * The total fantasy points earned by the player for the game.  
 
-`ProjectionDiff` – DOUBLE NULL  
+`ProjectionDiff` – DOUBLE  
 * The difference between the player's projected fantasy points and actual fantasy points earned.  
 
 
@@ -186,37 +188,40 @@ endpoint: https://api.the-odds-api.com/v4/historical/sports/basketball_nba/event
 
 **Odds Data Dictionary**
 
-`timestamp` – TIMESTAMP NOT NULL 
-* Timestamp when this data was retrieved.  
+NOT NULL
+`timestamp` – TIMESTAMP 
+* Timestamp when this data was retrieved.   
+`id` – STRING
+* Unique identifier for the game event.  
+`sport_key` – STRING 
+* Sport category (e.g., `"basketball_nba"`).  
+`sport_title` – STRING  
+* Official name of the sport (e.g., `"NBA"`).  
+`commence_time` – TIMESTAMP 
+* Scheduled start time of the game.  
+`home_team` – STRING 
+* Name of the home team.  
+`away_team` – STRING  
+* Name of the away team.  
+`key` – STRING  
+* Unique identifier for the bookmaker (e.g., `"draftkings"`).  
+`title` – STRING 
+* Full name of the bookmaker (e.g., `"DraftKings"`).  
+`last_update` – TIMESTAMP
+* Last time odds were updated by this bookmaker.  
+`key` – STRING  
+* Market type (e.g., `"h2h_q1"`, `"player_points"`).  
+`last_update` – TIMESTAMP  
+* Last time this market’s odds were updated.  
+`name` – STRING 
+* Outcome name (e.g., `"Detroit Pistons"`, `"Over"`).  
+`price` – DOUBLE
+
+NULL
 `previous_timestamp` – TIMESTAMP NULL 
 * Previous recorded timestamp in the feed.  
 `next_timestamp` – TIMESTAMP NULL 
-* Next recorded timestamp in the feed.  
-`id` – STRING NOT NULL 
-* Unique identifier for the game event.  
-`sport_key` – STRING NOT NULL 
-* Sport category (e.g., `"basketball_nba"`).  
-`sport_title` – STRING NOT NULL 
-* Official name of the sport (e.g., `"NBA"`).  
-`commence_time` – TIMESTAMP NOT NULL 
-* Scheduled start time of the game.  
-`home_team` – STRING NOT NULL 
-* Name of the home team.  
-`away_team` – STRING NOT NULL 
-* Name of the away team.  
-`key` – STRING NOT NULL 
-* Unique identifier for the bookmaker (e.g., `"draftkings"`).  
-`title` – STRING NOT NULL 
-* Full name of the bookmaker (e.g., `"DraftKings"`).  
-`last_update` – TIMESTAMP NOT NULL 
-* Last time odds were updated by this bookmaker.  
-`key` – STRING NOT NULL 
-* Market type (e.g., `"h2h_q1"`, `"player_points"`).  
-`last_update` – TIMESTAMP NOT NULL 
-* Last time this market’s odds were updated.  
-`name` – STRING NOT NULL 
-* Outcome name (e.g., `"Detroit Pistons"`, `"Over"`).  
-`price` – DOUBLE NOT NULL 
+* Next recorded timestamp in the feed. 
 * Betting odds for this outcome.  
 `description` – STRING NULL 
 * Additional details about the bet (e.g., `"Anthony Davis"`).  
